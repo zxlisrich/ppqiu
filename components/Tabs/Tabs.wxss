@@ -1,0 +1,28 @@
+/* .tabs{
+  background-color: bisque;
+} */
+
+ .tabs_title{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  background-color: #fff;
+}
+ .title_item{
+  /* width: 33.33%; */
+  margin-left: 40rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15rpx 0;
+  /* flex: 1; */
+  /* flex: 1 1 auto; */
+}
+.tabs_contents{
+  background-color: bisque;
+}
+.active{
+  color:var(--themeColor);
+  border-bottom: 5rpx solid currentColor;
+}

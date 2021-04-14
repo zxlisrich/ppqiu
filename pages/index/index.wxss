@@ -1,0 +1,136 @@
+page{
+  font-family: "方正仿宋";
+}
+.add{
+  width: 100rpx;
+  position: fixed;
+  bottom: 0rpx;
+  right:  10rpx;
+  display: flex;
+  
+}
+.logo image{
+  width: 100rpx;
+  height: 100rpx;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.index_swiper swiper{
+  width: 750rpx;
+  height: 340rpx;
+}
+
+.index_swiper swiper image{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width: 100%;
+}
+
+.index_cakes{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.index_cakes view{
+  width: 25%;
+}
+.index_cakes view navigator{
+  padding: 10rpx;
+  flex: 1 1 auto;
+}
+
+.index_cakes  navigator image{
+  width: 180rpx;
+  height: 200rpx;
+}
+.dynamic{
+  padding: 5rpx;
+  font-size: 30rpx;
+}
+.dongtai{
+  background-color: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+}
+.contents{
+  margin: 10rpx;
+  background-color: #fafafa;
+}
+.contents_title{
+  
+  height: 20%;
+  font-size: 40rpx;
+  font-weight: 600;
+  padding: 10rpx;
+}
+.shenglue{
+  
+  display: -webkit-box;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  overflow: hidden;
+    -webkit-box-orient: vertical;
+    /* -webkit-line-clamp: 2; */
+}
+
+.shenglue1{
+  -webkit-line-clamp: 2;
+}
+.shenglue2{
+  -webkit-line-clamp: 3;
+}
+.user_message{
+  width: 100%;
+  height: 3%;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.user_head{
+  height: 70rpx;
+  width: 70rpx;
+  margin: auto 25rpx;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  border-radius: 50%;
+  overflow:hidden;
+}
+.user_head image{
+  /* width: 100%; */
+  height: 100%;
+  border-radius: 50%;
+  overflow:hidden;
+}
+.contents text{
+  line-height: 1.5rem;
+  letter-spacing: 2rpx;
+}
+.user_name {
+  /* padding-left: 15rpx; */
+  /* background-color: aquamarine; */
+  font-size: 25rpx;
+  color: #666666;
+}
+.contents_text{
+  height: 30%;
+  font-size: 35rpx;
+  padding: 10rpx;
+}
+.contents_{
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  align-items: center;
+  font-size: 25rpx;
+  color: #CFCFCF;
+  
+}
+.dianzan{
+  padding: 20rpx;
+}

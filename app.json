@@ -1,0 +1,52 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/rank/rank",
+    "pages/partner/partner",
+    "pages/user/user",
+    "pages/dongtaicenter/dongtaicenter",
+    "pages/person_center/person_center"
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f0bc76",
+    "navigationBarTitleText": "约球乒乓",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#f0bc76",
+    "backgroundColor": "#ffffff",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "icons/dcdcdc.png",
+        "selectedIconPath": "icons/f2b48a.png"
+      },
+      {
+        "pagePath": "pages/rank/rank",
+        "text": "排位",
+        "iconPath": "icons/dcdcdc.png",
+        "selectedIconPath": "icons/f2b48a.png"
+      },
+      {
+        "pagePath": "pages/partner/partner",
+        "text": "玩伴",
+        "iconPath": "icons/dcdcdc.png",
+        "selectedIconPath": "icons/f2b48a.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "icons/dcdcdc.png",
+        "selectedIconPath": "icons/f2b48a.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
